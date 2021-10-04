@@ -1,14 +1,12 @@
 package com.donnu.oop_laba1.employee.cars;
 
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Component;
-
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-@Component("mazdaBean")
-@Scope("singleton")
 public class Mazda implements Car{
+    public Mazda(){
+        System.out.println("Mazda bean was created!");
+    }
     @Override
     public void myCar(){
         System.out.println("Mazda Axela 2013");
