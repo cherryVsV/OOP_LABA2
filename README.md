@@ -1,6 +1,5 @@
 # OOP_LABA2_TASK_1-2
 ЛАБОРАТОРНАЯ РАБОТА №2
-10 баллов
 
 Тема: Inversion of Control и Dependency Injection с помощью аннотаций и кода.
 
